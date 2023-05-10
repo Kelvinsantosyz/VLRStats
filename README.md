@@ -1,4 +1,4 @@
-Claro! Segue uma versão mais organizada e com correções:
+
 
 # VLR Stats
 
