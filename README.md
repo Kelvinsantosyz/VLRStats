@@ -14,7 +14,7 @@ Before you start, you need to have Python 3 installed on your machine.
 1. Clone the repository using `gh repo clone Kelvinsantosyz/VLRStats`.
 2. Install the project dependencies using the command `pip install -r requirements.txt`.
 
-## Usage
+## How to use
 
 To use the project, follow these steps:
 
