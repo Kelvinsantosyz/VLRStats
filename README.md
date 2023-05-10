@@ -1,4 +1,4 @@
-
+Claro! Segue uma possível correção e organização do README:
 
 # VLR Stats
 
@@ -53,5 +53,9 @@ Para utilizar o projeto, siga os seguintes passos:
 - Estatísticas do terceiro mapa: `MatchAnalyzer_map3(url)`
   - `result_map3()` - resultado do terceiro mapa (caso tenha sido jogado)
 
+
+## Contribuição
+
+Este projeto é de código aberto e qualquer pessoa pode contribuir. Se você encontrar algum problema ou tiver alguma ideia para melhorá-lo, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 
