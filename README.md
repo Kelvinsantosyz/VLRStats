@@ -1,4 +1,5 @@
 # VLR Stats
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is a project that uses the [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) library to scrape data from matches of the game [Valorant](https://playvalorant.com/en-us/).
 
