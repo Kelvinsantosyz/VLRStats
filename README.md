@@ -18,9 +18,11 @@ Antes de começar, é necessário ter o Python 3 instalado na sua máquina.
 
 Para utilizar o projeto, siga os seguintes passos:
 
-1. Execute o arquivo `main.py`.
-2. Insira a URL da partida que deseja analisar. Exemplo: `https://www.vlr.gg/197245/rebels-velvet-vs-cba-game-changers-2023-series-i-emea-groups-r7`.
-3. Escolha qual tipo de análise deseja realizar:
+1. Clone repositório  `gh repo clone Kelvinsantosyz/VLRStats`.
+2. ``` import vlr_stats```
+3. Insira a URL do time que deseja ver rank. Exemplo : `https://www.vlr.gg/team/6961/loud`
+4. Insira a URL da partida que deseja analisar. Exemplo: `https://www.vlr.gg/183809/loud-vs-100-thieves-champions-tour-2023-americas-league-w6`.
+5. Escolha qual tipo de análise deseja realizar:
 
 - Informações da equipe e elenco: `Get_team_stats(url)`
   - `current_rank()` - classificação atual da equipe
