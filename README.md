@@ -1,62 +1,57 @@
-
 # VLR Stats
 
-Este é um projeto que utiliza a biblioteca [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para realizar scraping de dados de partidas do jogo [Valorant](https://playvalorant.com/pt-br/).
+This is a project that uses the [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) library to scrape data from matches of the game [Valorant](https://playvalorant.com/en-us/).
 
-Com esse projeto, é possível obter estatísticas de jogadores e equipes, além de resultados de partidas e mapas jogados.
+With this project, you can obtain player and team statistics, as well as match results and maps played.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de começar, é necessário ter o Python 3 instalado na sua máquina.
+Before you start, you need to have Python 3 installed on your machine.
 
-## Instalação
+## Installation
 
-1. Clone o repositório para o seu computador.
-2. Instale as dependências do projeto utilizando o comando `pip install -r requirements.txt`.
+1. Clone the repository using `gh repo clone Kelvinsantosyz/VLRStats`.
+2. Install the project dependencies using the command `pip install -r requirements.txt`.
 
-## Utilização
+## Usage
 
-Para utilizar o projeto, siga os seguintes passos:
+To use the project, follow these steps:
 
-1. Clone repositório  `gh repo clone Kelvinsantosyz/VLRStats`.
-2. ``` import vlr_stats```
-3. Insira a URL do time que deseja ver rank. Exemplo : `https://www.vlr.gg/team/6961/loud`
-4. Insira a URL da partida que deseja analisar. Exemplo: `https://www.vlr.gg/183809/loud-vs-100-thieves-champions-tour-2023-americas-league-w6`.
-5. Escolha qual tipo de análise deseja realizar:
+1. ``` import vlr_stats```
+3. Insert the URL of the team you want to see the rank of. Example: `https://www.vlr.gg/team/6961/loud`
+4. Insert the URL of the match you want to analyze. Example: `https://www.vlr.gg/183809/loud-vs-100-thieves-champions-tour-2023-americas-league-w6`.
+5. Choose which type of analysis you want to perform:
 
-- Informações da equipe e elenco: `Get_team_stats(url)`
-  - `current_rank()` - classificação atual da equipe
+- Team and roster information: `Get_team_stats(url)`
+  - `current_rank()` - current team ranking
 
-- Mapas jogados e agentes de partida: `TeamStats(url)`
+- Played maps and agents: `TeamStats(url)`
 
-- Estatísticas gerais da partida: `MatchAnalyzer(url)`
-  - `players()` - lista dos jogadores da equipe
-  - `agents()` - taxa de vitórias por agente utilizado
-  - `rating_all()` - rating geral da equipe em todas as partidas
-  - `rating_all_ct()` - rating geral da equipe jogando como CT
-  - `rating_all_tr()` - rating geral da equipe jogando como TR
-  - `acs_all()` - ACS (Average Combat Score) geral da equipe em todas as partidas
-  - `acs_all_ct()` - ACS geral da equipe jogando como CT
-  - `acs_all_tr()` - ACS geral da equipe jogando como TR
-  - `kda_all()` - KDA (Kill/Death/Assist) geral da equipe em todas as partidas
-  - `kda_all_ct()` - KDA geral da equipe jogando como CT
-  - `kda_all_tr()` - KDA geral da equipe jogando como TR
-  - `fk_fd_all()` - First Kills/First Deaths geral da equipe em todas as partidas
-  - `fk_fd_ct_all()` - First Kills/First Deaths geral da equipe jogando como CT
-  - `fk_fd_tr_all()` - First Kills/First Deaths geral da equipe jogando como TR
+- Overall match statistics: `MatchAnalyzer(url)`
+  - `players()` - list of team players
+  - `agents()` - win rate by used agent
+  - `rating_all()` - overall team rating in all matches
+  - `rating_all_ct()` - overall team rating when playing as CT
+  - `rating_all_tr()` - overall team rating when playing as TR
+  - `acs_all()` - overall team ACS (Average Combat Score) in all matches
+  - `acs_all_ct()` - overall team ACS when playing as CT
+  - `acs_all_tr()` - overall team ACS when playing as TR
+  - `kda_all()` - overall team KDA (Kill/Death/Assist) in all matches
+  - `kda_all_ct()` - overall team KDA when playing as CT
+  - `kda_all_tr()` - overall team KDA when playing as TR
+  - `fk_fd_all()` - overall team first kills/first deaths in all matches
+  - `fk_fd_ct_all()` - overall team first kills/first deaths when playing as CT
+  - `fk_fd_tr_all()` - overall team first kills/first deaths when playing as TR
 
-- Estatísticas do primeiro mapa: `MatchAnalyzer_map1(url)`
-  - `result_map1()` - resultado do primeiro mapa
+- First map statistics: `MatchAnalyzer_map1(url)`
+  - `result_map1()` - result of the first map
 
-- Estatísticas do segundo mapa: `MatchAnalyzer_map2(url)`
-  - `result_map2()` - resultado do segundo mapa
+- Second map statistics: `MatchAnalyzer_map2(url)`
+  - `result_map2()` - result of the second map
 
-- Estatísticas do terceiro mapa: `MatchAnalyzer_map3(url)`
-  - `result_map3()` - resultado do terceiro mapa (caso tenha sido jogado)
+- Third map statistics: `MatchAnalyzer_map3(url)`
+  - `result_map3()` - result of the third map (if played)
 
+## Contributing
 
-## Contribuição
-
-Este projeto é de código aberto e qualquer pessoa pode contribuir. Se você encontrar algum problema ou tiver alguma ideia para melhorá-lo, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-
+This project is open source and anyone can contribute. If you find any issues or have any ideas to improve it, feel free to open an issue or submit a pull request.
