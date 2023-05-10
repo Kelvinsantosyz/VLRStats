@@ -51,7 +51,7 @@ To use the project, follow these steps:
   - `result_map2()` - result of the second map
 
 - Third map statistics: `MatchAnalyzer_map3(url)`
-  - `result_map3()` - result of the third map (if played)
+  - `result_map3()` - result of the third map (if it has been played)
 
 ## Contributing
 
