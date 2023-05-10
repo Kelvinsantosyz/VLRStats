@@ -37,7 +37,6 @@ class Get_team_stats(Vlranalyzer):
             "Wins": [win_span.text.strip() if win_span else ""],
             "Loses": [lose_span.text.strip() if lose_span else ""],
         }
-        print(data)
 
         return data
 
