@@ -1,4 +1,3 @@
-Claro! Segue uma possível correção e organização do README:
 
 # VLR Stats
 
