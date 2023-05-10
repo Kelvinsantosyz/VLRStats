@@ -54,6 +54,4 @@ Para utilizar o projeto, siga os seguintes passos:
   - `result_map3()` - resultado do terceiro mapa (caso tenha sido jogado)
 
 
-## Contribuição
 
-Este projeto é de código aberto e qualquer pessoa pode contribuir. Se você encontrar algum problema ou tiver alguma ideia para melhorá-lo, sinta-se à vontade para abrir uma [issue](https://github.com/gustavosotnas/vlr-stats/issues) ou enviar um pull request.
